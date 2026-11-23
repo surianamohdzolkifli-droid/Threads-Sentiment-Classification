@@ -57,14 +57,13 @@ The project includes three visualizations:
 - Scikit-learn
 - Matplotlib
 - Seaborn
+- NumPy 2.5.4
 
 ## 7. How to Run
 
 Install the required libraries:
 
-```bash
-pip install pandas scikit-learn matplotlib seaborn
-```
+pip install -r requirements.txt
 
 Run the Python script:
 
@@ -78,3 +77,5 @@ python sentiment_analysis.py
 - `accuracy_comparison.png` – Accuracy visualization.
 - `performance_comparison.png` – Performance metrics visualization.
 - `confusion_matrices.png` – Confusion matrix visualization.
+- `dataset/Threads_Sentiment_Dataset_Cleaned.csv` – Cleaned dataset used for sentiment classification.
+- `requirements.txt` – List of required Python libraries and versions.
